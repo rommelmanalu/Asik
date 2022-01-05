@@ -38,7 +38,7 @@
 ## Deploy to Heroku
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/rommelmanalu/Ultroid&template=https://github.com/rommelmanalu/Ultroid)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/rommelmanalu/Asik&template=https://github.com/rommelmanalu/Asik)
 
 ## Deploy to Railway
 Get the [Necessary Variables](#Necessary-Variables) and then click the button below!  
