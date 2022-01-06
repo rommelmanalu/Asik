@@ -70,10 +70,10 @@ UND = get_string("pmperm_1")
 UNS = get_string("pmperm_2")
 NO_REPLY = get_string("pmperm_3")
 
-UNAPPROVED_MSG = ""
+UNAPPROVED_MSG = "Join sini dulu sayang @Cari_Teman_Asiik, kalo udah join nanti baru aku chat lagi,bantu ramein yah ka"
 if udB.get_key("PM_TEXT"):
     UNAPPROVED_MSG = (
-        "Join sini dulu sayang @Cari_Teman_Asiik, kalo udah join nanti baru aku chat lagi,bantu ramein yah ka"
+        ""
         + udB.get_key("PM_TEXT")
         + ""
     )
