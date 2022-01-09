@@ -168,14 +168,14 @@ async def _(e):
         )
         await eod(
             xx,
-            f"`Successfully Unmuted` [{name}](tg://user?id={userid}) `in {chat.title}`",
+            f"`Sukses membuka ikatan` [{name}](tg://user?id={userid}) `in {chat.title}`",
             time=5,
         )
     except BaseException as m:
         await xx.eor(f"`{m}`", time=5)
 
 
-@ultroid_cmd(pattern="mute ?(.*)", admins_only=True, manager=True, require="ban_users")
+@ultroid_cmd(pattern="diam ?(.*)", admins_only=True, manager=True, require="ban_users")
 async def _(e):
     xx = await e.eor("`Muting...`")
     input = e.pattern_match.group(1)
@@ -202,7 +202,7 @@ async def _(e):
         )
         await eod(
             xx,
-            f"`Successfully Muted` {name} `in {chat.title}`",
+            f"`sukses tangannya di ikat` {name} `in {chat.title}`",
         )
     except BaseException as m:
         await xx.eor(f"`{m}`", time=5)
