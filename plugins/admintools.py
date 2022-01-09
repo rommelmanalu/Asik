@@ -119,7 +119,7 @@ async def dmote(ult):
 
 
 @ultroid_cmd(
-    pattern="ban ?(.*)",
+    pattern="bunuh ?(.*)",
     admins_only=True,
     manager=True,
     require="ban_users",
